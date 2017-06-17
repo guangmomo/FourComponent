@@ -1,0 +1,8 @@
+1. 每个线程最多可以创建一个looper，可以创建多个handler，多个handler会共用同一个looper，共用同一个MessageQueue
+
+2. 定时任务：
+子线程使用handler
+直接使用线程
+使用handlerThread
+
+3.
